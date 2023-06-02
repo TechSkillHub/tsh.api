@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "clean": "rimraf ./build",
-    "build": "npm run clean && tsc",
+    "build": "npm run tsc",
     "start": "node src/index.ts",
     "local": "ts-node src/index.ts",
     "local:watch": "nodemon src/index.ts"

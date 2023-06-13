@@ -15,7 +15,7 @@ const options: cors.CorsOptions = {
   ],
   credentials: true,
   methods: 'GET,HEAD,OPTIONS,PUT,PATCH,POST,DELETE',
-  origin: 'https://site.techskillhub.com/',
+  origin: 'https://techskillhub.com/',
   preflightContinue: false,
 };
 

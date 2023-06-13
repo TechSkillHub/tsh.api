@@ -21,3 +21,16 @@ export async function create(userDto: CreateUserDto): Promise<any> {
         sucess: true
     };
 }
+
+// export async function login(userDto: CreateUserDto): Promise<any> {
+//     const user = await prismaClient.user.findUnique({
+//         where: {
+//             email: 'elsa@prisma.io',
+//         },
+//     })
+
+//     return {
+//         data: user,
+//         sucess: true
+//     };
+// }
